@@ -1,16 +1,16 @@
-app-benchmarks/bat 0.0.2 9999: Go implement CLI, cURL-like tool for humans
-app-forensics/pev 9999: The PE file analysis toolkit
+app-benchmarks/bat 0.0.2 9999: 
+app-forensics/pev 9999: 
 app-misc/screen 4.0.3-r6: Full-screen window manager that multiplexes physical terminals between several processes
-dev-db/cassandra-bin 2.1.5: A highly scalable second-generation distributed database
+dev-db/cassandra-bin 2.1.5: 
 dev-db/leveldb 9999: A fast and lightweight key/value database library by Google.
-dev-db/rocksdb 9999: RocksDB is an embeddable persistent key-value store for fast storage.
-dev-libs/libxs 9999: libxs is a library for building scalable and high performance distributed applications.
-dev-libs/mtbl 9999: mtbl is a C library implementation of the Sorted String Table (SSTable) data structure.
-dev-libs/nmsg 9999: Network message encapsulation library.
-dev-libs/sie-nmsg 9999: SIE-specific message modules for libnmsg.
-dev-libs/wdns 9999: Low-level DNS library.
-dev-python/icdiff 9999: Improved colored diff
-net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS data.
+dev-db/rocksdb 9999: 
+dev-libs/libxs 9999: 
+dev-libs/mtbl 9999: 
+dev-libs/nmsg 9999: 
+dev-libs/sie-nmsg 9999: 
+dev-libs/wdns 9999: 
+dev-python/icdiff 9999: 
+net-dns/dnstable 9999: 
 net-misc/spdylay 0.3.8 9999: The experimental SPDY protocol version 2 and 3 implementation in C
-net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
-www-servers/h2o 1.0.1 9999: An optimized HTTP server with support for HTTP/1.x and HTTP/2
+net-p2p/bittorrent-sync 1.4.110: 
+www-servers/h2o 1.0.1 9999: 
