@@ -10,6 +10,7 @@ dev-libs/nmsg 9999: Network message encapsulation library.
 dev-libs/openssl 1.0.2e 1.0.2f: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/sie-nmsg 9999: SIE-specific message modules for libnmsg.
 dev-libs/wdns 9999: Low-level DNS library.
+dev-python/flickr-api 9999: Simple tool to upload photos to Flickr
 dev-python/flickr-upload 9999: Simple tool to upload photos to Flickr
 dev-python/icdiff 9999: Improved colored diff
 net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS data.
