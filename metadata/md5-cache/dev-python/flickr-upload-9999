@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-vcs/git
+DESCRIPTION=Simple tool to upload photos to Flickr
+EAPI=5
+HOMEPAGE=https://github.com/beaufour/flickr-upload
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_compile:- src_install:-
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=6ad7f3d57a75e86e8daa865cb9141856
