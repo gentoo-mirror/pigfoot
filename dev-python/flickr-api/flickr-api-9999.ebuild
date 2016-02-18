@@ -7,18 +7,18 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI="https://github.com/beaufour/${PN}.git
-	               git://github.com/beaufour/${PN}.git"
+	EGIT_REPO_URI="https://github.com/alexis-mignon/python-${PN}.git
+	               git://github.com/beaufour/python-${PN}.git"
 	EGIT_MASTER="master"
 	inherit git-2
 fi
 
 DESCRIPTION="Simple tool to upload photos to Flickr"
-HOMEPAGE="https://github.com/beaufour/flickr-upload"
-LICENSE="MIT"
+HOMEPAGE="https://github.com/alexis-mignon/python-flickr-api/"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
-RDEPEND="dev-python/flickr-api[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/oauth[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 
