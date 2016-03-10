@@ -7,7 +7,7 @@ dev-db/rocksdb 9999: RocksDB is an embeddable persistent key-value store for fas
 dev-libs/libxs 9999: libxs is a library for building scalable and high performance distributed applications.
 dev-libs/mtbl 9999: mtbl is a C library implementation of the Sorted String Table (SSTable) data structure.
 dev-libs/nmsg 9999: Network message encapsulation library.
-dev-libs/openssl 1.0.2e 1.0.2f: full-strength general purpose cryptography library (including SSL and TLS)
+dev-libs/openssl 1.0.2f 1.0.2g-r2: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/sie-nmsg 9999: SIE-specific message modules for libnmsg.
 dev-libs/wdns 9999: Low-level DNS library.
 dev-python/flickr-api 9999: Simple tool to upload photos to Flickr
