@@ -1,4 +1,4 @@
-app-admin/google-compute-engine 2.1.2: Scripts and tools for Google Compute Engine Linux images.
+app-admin/google-compute-engine 2.1.2 2.2.4: Scripts and tools for Google Compute Engine Linux images.
 app-benchmarks/bat 0.0.2 9999: Go implement CLI, cURL-like tool for humans
 app-forensics/pev 9999: The PE file analysis toolkit
 app-misc/screen 4.0.3-r6: Full-screen window manager that multiplexes physical terminals between several processes
