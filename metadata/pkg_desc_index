@@ -22,5 +22,6 @@ net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS d
 net-libs/nodejs 5.9.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/spdylay 0.3.8 9999: The experimental SPDY protocol version 2 and 3 implementation in C
 net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
+sci-libs/xgboost 0.60 9999: Scalable, Portable and Distributed Gradient Boosting.
 sys-fs/fswatch 1.8.0 9999: A cross-platform file change monitor with multiple backends
 www-servers/h2o 1.0.1 9999: An optimized HTTP server with support for HTTP/1.x and HTTP/2
