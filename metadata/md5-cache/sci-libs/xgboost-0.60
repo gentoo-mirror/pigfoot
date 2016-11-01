@@ -1,12 +1,13 @@
-DEFINED_PHASES=unpack
+DEFINED_PHASES=install unpack
 DEPEND=>=sys-devel/gcc-4.6 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Scalable, Portable and Distributed Gradient Boosting.
 EAPI=6
 HOMEPAGE=https://github.com/dmlc/xgboost
+IUSE=static-libs
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=>=sys-devel/gcc-4.6
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3
+_eclass_exported_funcs=src_unpack:git-r3 src_install:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	e928b84a9f6f1d9076d1d27687876dc6	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=ac63c5f1fbf6046081e2da8a18faaa59
+_md5_=5da794633f8907ef56c4c2ae74413d8d
