@@ -20,7 +20,7 @@ dev-util/msgpack-cli 0.4: CLI tool to encoding/decoding data to/from MessagePack
 net-analyzer/captipper 9999: Malicious HTTP traffic explorer
 net-analyzer/ssldump 0.9-r2 0.9-r3: An SSLv3/TLS network protocol analyzer
 net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS data.
-net-libs/nodejs 5.9.1 6.9.4: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 5.9.1 6.9.4 7.7.3: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/aria2 1.30.0 1.31.0: A download utility with segmented downloading with BitTorrent support
 net-misc/spdylay 0.3.8 9999: The experimental SPDY protocol version 2 and 3 implementation in C
 net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
