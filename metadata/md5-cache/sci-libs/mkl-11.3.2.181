@@ -1,0 +1,16 @@
+DEFINED_PHASES=install postinst postrm prepare prerm pretend setup unpack
+DEPEND=>=app-admin/eselect-1.4.9-r100 app-arch/rpm2targz >=app-admin/eselect-1.4.9-r100 virtual/fortran
+DESCRIPTION=Intel Math Kernel Library: linear algebra, fft, math functions
+EAPI=6
+HOMEPAGE=http://software.intel.com/en-us/articles/intel-mkl/
+IUSE=doc examples linguas_ja mic abi_x86_32 abi_x86_64 int64
+KEYWORDS=-* ~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=Intel-SDP
+RDEPEND=>=dev-libs/intel-common-16[abi_x86_32(-)?,abi_x86_64(-)?,mic?] >=app-admin/eselect-1.4.9-r100 !app-eselect/eselect-blas !app-eselect/eselect-cblas !app-eselect/eselect-lapack >=app-admin/eselect-1.4.9-r100 !app-eselect/eselect-blas !app-eselect/eselect-cblas !app-eselect/eselect-lapack virtual/fortran
+REQUIRED_USE=|| ( abi_x86_32 abi_x86_64 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://registrationcenter-download.intel.com/akdlm/irc_nas/8676/parallel_studio_xe_2016_update2.tgz
+_eclass_exported_funcs=pkg_pretend:intel-sdp-r1 pkg_prerm:alternatives-2 pkg_postrm:intel-sdp-r1 pkg_postinst:alternatives-2 pkg_setup:- src_unpack:intel-sdp-r1 src_prepare:- src_install:-
+_eclasses_=alternatives-2	758180057d294dc41eef76718d262f12	check-reqs	bd050ce908e4637604ee604ed4b78e8f	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	fortran-2	9e7f20c99213f0627ff7f873d4aaa25d	intel-sdp-r1	12f9588996b49d3c639a5187481f77da	ltprune	2770eed66a9b8ef944714cd0e968182e	multibuild	72647e255187a1fadc81097b3657e5c3	multilib	97f470f374f2e94ccab04a2fb21d811e	multilib-build	eed53a6313267c9fbcd35fc384bd0087	numeric	a1c3429a88265f473d830f9679d196db	numeric-int64-multibuild	84736268ddab92b433bfea80e8d8d0cf	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=13d26d0fa587e40001b60716f6e37ac7

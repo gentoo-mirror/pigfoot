@@ -23,6 +23,8 @@ net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS d
 net-misc/aria2 1.30.0 1.31.0: A download utility with segmented downloading with BitTorrent support
 net-misc/spdylay 0.3.8 9999: The experimental SPDY protocol version 2 and 3 implementation in C
 net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
+sci-libs/mkl 11.3.2.181 2017.3.196: Intel Math Kernel Library: linear algebra, fft, math functions
+sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
 sci-libs/xgboost 0.60 9999: Scalable, Portable and Distributed Gradient Boosting.
 sys-fs/fswatch 1.8.0 9999: A cross-platform file change monitor with multiple backends
 sys-fs/mediafire-fuse 9999: Programs to interact with a mediafire account
