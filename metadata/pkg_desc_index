@@ -1,4 +1,5 @@
 app-admin/google-compute-engine 2.1.2 2.2.4 2.3.6: Scripts and tools for Google Compute Engine Linux images.
+app-admin/journalbeat 5.4.1: Journalbeat is a log shipper from systemd/journald to Logstash/Elasticsearch
 app-benchmarks/bat 0.0.2 9999: Go implement CLI, cURL-like tool for humans
 app-forensics/pev 9999: The PE file analysis toolkit
 app-misc/screen 4.0.3-r6: Full-screen window manager that multiplexes physical terminals between several processes
