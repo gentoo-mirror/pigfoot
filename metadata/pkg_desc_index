@@ -22,6 +22,7 @@ net-analyzer/captipper 9999: Malicious HTTP traffic explorer
 net-analyzer/ssldump 0.9-r2 0.9-r3: An SSLv3/TLS network protocol analyzer
 net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS data.
 net-misc/aria2 1.30.0 1.31.0 1.32.0: A download utility with segmented downloading with BitTorrent support
+net-misc/grive 0.5.1_pre20161004: An open source Linux client for Google Drive
 net-misc/spdylay 0.3.8 9999: The experimental SPDY protocol version 2 and 3 implementation in C
 net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
 sci-libs/mkl 11.3.2.181 2017.3.196: Intel Math Kernel Library: linear algebra, fft, math functions
