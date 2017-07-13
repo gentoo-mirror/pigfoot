@@ -6,6 +6,7 @@ app-misc/screen 4.0.3-r6: Full-screen window manager that multiplexes physical t
 dev-db/cassandra-bin 2.1.5: A highly scalable second-generation distributed database
 dev-db/leveldb 9999: A fast and lightweight key/value database library by Google.
 dev-db/rocksdb 9999: RocksDB is an embeddable persistent key-value store for fast storage.
+dev-go/rice 20170420: go.rice is a Go package that makes working with resources such as html,js,css,images,templates, etc very easy
 dev-libs/libxs 9999: libxs is a library for building scalable and high performance distributed applications.
 dev-libs/mtbl 9999: mtbl is a C library implementation of the Sorted String Table (SSTable) data structure.
 dev-libs/nmsg 9999: Network message encapsulation library.
@@ -16,7 +17,6 @@ dev-python/flickr-api 9999: Simple tool to upload photos to Flickr
 dev-python/flickr-upload 9999: Simple tool to upload photos to Flickr
 dev-python/icdiff 9999: Improved colored diff
 dev-python/phpserialize 1.3 9999: A small library for extracting rich content from urls
-dev-util/go-rice 20170420: go.rice is a Go package that makes working with resources such as html,js,css,images,templates, etc very easy
 dev-util/gotags 1.3.0 1.4.0_pre20150803: ctags-compatible tag generator for Go
 dev-util/msgpack-cli 0.4: CLI tool to encoding/decoding data to/from MessagePack format and calling RPC via msgpack-rpc / msgpack.org[Shell]
 net-analyzer/captipper 9999: Malicious HTTP traffic explorer
