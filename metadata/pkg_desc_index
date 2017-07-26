@@ -31,5 +31,5 @@ sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
 sci-libs/xgboost 0.60 9999: Scalable, Portable and Distributed Gradient Boosting.
 sys-fs/fswatch 1.8.0 9999: A cross-platform file change monitor with multiple backends
 sys-fs/mediafire-fuse 9999: Programs to interact with a mediafire account
-www-client/phantomjs 2.0.0-r1: A headless WebKit scriptable with a JavaScript API
+www-client/phantomjs 2.0.0-r1 2.1.1: A headless WebKit scriptable with a JavaScript API
 www-servers/h2o 1.0.1 9999: An optimized HTTP server with support for HTTP/1.x and HTTP/2
