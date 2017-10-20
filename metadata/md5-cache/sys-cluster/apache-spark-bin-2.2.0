@@ -1,0 +1,13 @@
+DEFINED_PHASES=install setup
+DEPEND=scala? ( dev-lang/scala ) virtual/pkgconfig
+DESCRIPTION=Software framework for fast cluster computing
+EAPI=6
+HOMEPAGE=http://spark.apache.org/
+IUSE=scala
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=virtual/jre scala? ( dev-lang/scala )
+SLOT=0
+SRC_URI=mirror://apache/spark/spark-2.2.0/spark-2.2.0-bin-hadoop2.7.tgz
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	34815d3b76e745c5ca33eec9f95074c2	toolchain-funcs	185a06792159ca143528e7010368e8af	user	e4b567c44272a719fabf53f0f885d3f7
+_md5_=66fa866e15bddb185cecccc390ab0b84

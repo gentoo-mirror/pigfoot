@@ -29,6 +29,7 @@ net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free f
 sci-libs/mkl 11.3.2.181 2017.3.196: Intel Math Kernel Library: linear algebra, fft, math functions
 sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
 sci-libs/xgboost 0.60 9999: Scalable, Portable and Distributed Gradient Boosting.
+sys-cluster/apache-spark-bin 2.2.0: Software framework for fast cluster computing
 sys-fs/encfs 1.9.1: An implementation of encrypted filesystem in user-space using FUSE
 sys-fs/fswatch 1.8.0 9999: A cross-platform file change monitor with multiple backends
 sys-fs/mediafire-fuse 9999: Programs to interact with a mediafire account
