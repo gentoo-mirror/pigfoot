@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile install test unpack
-DEPEND=dev-lang/go >=dev-vcs/git-1.8.2.1
+DEPEND=dev-lang/go >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Go implement CLI, cURL-like tool for humans
 EAPI=5
 HOMEPAGE=https://github.com/astaxie/bat/
 KEYWORDS=~x86 ~amd64
 LICENSE=Apache-2.0
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=d61f3a92b63286b111e35de9aa7e3695
