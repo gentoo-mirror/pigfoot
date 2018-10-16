@@ -4,7 +4,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python{2_7,3_{4,5,6,7}} pypy{,3} )
+PYTHON_COMPAT=( python{2_7,3_{6,7}} pypy{,3} )
 
 inherit distutils-r1 systemd
 
@@ -37,6 +37,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="
     dev-python/boto[${PYTHON_USEDEP}]
+    dev-python/distro[${PYTHON_USEDEP}]
 "
 
 DEPEND="${RDEPEND}
@@ -68,7 +69,7 @@ pkg_postinst() {
 	ewarn "    # Stop existing daemons."
 	ewarn "    systemctl stop --no-block google-accounts-daemon"
 	ewarn "    systemctl stop --no-block google-clock-skew-daemon"
-	ewarn "    systemctl stop --no-block google-ip-forwarding-daemon"
+	ewarn "    systemctl stop --no-block google-network-daemon"
 	ewarn
 	ewarn "    # Enable systemd services."
 	ewarn "    systemctl enable google-accounts-daemon.service"
@@ -82,8 +83,8 @@ pkg_postinst() {
 	ewarn "    /usr/bin/google_instance_setup"
 	ewarn
 	ewarn "    # Start daemons."
+	ewarn "    systemctl start --no-block google-network-daemon"
 	ewarn "    systemctl start --no-block google-accounts-daemon"
 	ewarn "    systemctl start --no-block google-clock-skew-daemon"
-	ewarn "    systemctl start --no-block google-ip-forwarding-daemon"
 	ewarn
 }
