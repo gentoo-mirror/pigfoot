@@ -2,11 +2,11 @@ BDEPEND=>=dev-lang/go-1.10
 DEFINED_PHASES=compile install test unpack
 DESCRIPTION=The power of curl, the ease of use of httpie, written in GoLang
 EAPI=7
-IUSE=pie
+IUSE=+pie
 KEYWORDS=~amd64 ~x86 ~arm
 LICENSE=MIT
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rs/curlie/archive/v1.2.0.tar.gz -> curlie-1.2.0.tar.gz https://github.com/akamensky/argparse/archive/99676ba18cd5c0c3b331a13801ccd2b5c16a9259.tar.gz -> github.com-akamensky-argparse-99676ba18cd5c0c3b331a13801ccd2b5c16a9259.tar.gz https://github.com/jessevdk/go-flags/archive/c6ca198ec95c841fdb89fc0de7496fed11ab854e.tar.gz -> github.com-jessevdk-go-flags-c6ca198ec95c841fdb89fc0de7496fed11ab854e.tar.gz https://github.com/golang/crypto/archive/159ae71589f303f9fbfd7528413e0fe944b9c1cb.tar.gz -> github.com-golang-crypto-159ae71589f303f9fbfd7528413e0fe944b9c1cb.tar.gz https://github.com/golang/sys/archive/31355384c89b50e6faeffdb36f64a77a8210188e.tar.gz -> github.com-golang-sys-31355384c89b50e6faeffdb36f64a77a8210188e.tar.gz
 _eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7	golang-vcs-snapshot	12177e83bede6f7fb87eae383864b40b
-_md5_=7057a6c4297c044dcf0b1573024f7aba
+_md5_=720be07f129b3389ab2c87d68f34993f
