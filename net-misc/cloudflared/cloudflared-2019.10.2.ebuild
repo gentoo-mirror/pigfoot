@@ -3,18 +3,14 @@
 
 EAPI=7
 
-EGO_PN="github.com/rs/${PN}"
+EGO_PN="github.com/cloudflare/${PN}"
 EGO_VENDOR=(
-	"github.com/akamensky/argparse 99676ba18cd5c0c3b331a13801ccd2b5c16a9259"
-	"github.com/jessevdk/go-flags c6ca198ec95c841fdb89fc0de7496fed11ab854e"
-	"golang.org/x/crypto 159ae71589f303f9fbfd7528413e0fe944b9c1cb github.com/golang/crypto"
-	"golang.org/x/sys 31355384c89b50e6faeffdb36f64a77a8210188e github.com/golang/sys"
 )
 
 inherit golang-build golang-vcs-snapshot
 
-DESCRIPTION="The power of curl, the ease of use of httpie, written in GoLang"
-ARCHIVE_URI="https://${EGO_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
+DESCRIPTION="Argo Tunnel client, written in GoLang"
+ARCHIVE_URI="https://${EGO_PN}/archive/${PV}.tar.gz -> ${P}.tar.gz
 	${EGO_VENDOR_URI}"
 SRC_URI="${ARCHIVE_URI}"
 RESTRICT="mirror"
@@ -32,7 +28,7 @@ src_compile() {
 		GOCACHE="${T}/go-cache" \
 		CGO_ENABLED=0 \
 		GO111MODULE=off \
-		go install -v -work -x ${build_flags} ${EGO_PN}
+		go install -v -work -x ${build_flags} ${EGO_PN}/cmd/...
 	echo "$@"
 	"$@" || die
 }
