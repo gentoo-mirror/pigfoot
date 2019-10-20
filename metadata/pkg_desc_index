@@ -27,6 +27,7 @@ net-analyzer/ssldump 0.9-r2 0.9-r3: An SSLv3/TLS network protocol analyzer
 net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS data.
 net-libs/grpc 1.12.0: Modern open source high performance RPC framework
 net-libs/nodejs 8.11.1 8.12.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-misc/BaiduPCS-Go 3.6: BaiDu PCS client, written in GoLang
 net-misc/aria2 1.30.0 1.31.0 1.32.0: A download utility with segmented downloading with BitTorrent support
 net-misc/cloudflared 2019.10.2: Argo Tunnel client, written in GoLang
 net-misc/curlie 1.2.0: The power of curl, the ease of use of httpie, written in GoLang
