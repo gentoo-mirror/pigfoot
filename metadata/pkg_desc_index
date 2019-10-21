@@ -5,6 +5,7 @@ app-forensics/pev 9999: The PE file analysis toolkit
 app-misc/gron 0.5.2-r1: Make JSON greppable!
 app-misc/motion 0.1_pre20160411: Navigation and insight in Go
 app-misc/screen 4.0.3-r6: Full-screen window manager that multiplexes physical terminals between several processes
+app-shells/fzf 0.18.0: A general-purpose command-line fuzzy finder, written in GoLang
 dev-db/cassandra-bin 2.1.5: A highly scalable second-generation distributed database
 dev-db/leveldb 9999: A fast and lightweight key/value database library by Google.
 dev-db/rocksdb 9999: RocksDB is an embeddable persistent key-value store for fast storage.
