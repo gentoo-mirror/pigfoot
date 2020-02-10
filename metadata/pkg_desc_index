@@ -1,31 +1,19 @@
 app-admin/google-compute-engine 2.8.3: Scripts and tools for Google Compute Engine Linux images.
 app-admin/journalbeat 5.5.2: Journalbeat is a log shipper from systemd/journald to Logstash/Elasticsearch
 app-admin/metricbeat 6.2.4: Lightweight log shipper for Logstash and Elasticsearch
-app-forensics/pev 9999: The PE file analysis toolkit
 app-misc/gron 0.5.2-r1: Make JSON greppable!
 app-misc/motion 0.1_pre20160411: Navigation and insight in Go
 app-misc/screen 4.0.3-r6: Full-screen window manager that multiplexes physical terminals between several processes
 app-shells/fzf 0.18.0: A general-purpose command-line fuzzy finder, written in GoLang
 dev-db/cassandra-bin 2.1.5: A highly scalable second-generation distributed database
-dev-db/leveldb 9999: A fast and lightweight key/value database library by Google.
-dev-db/rocksdb 9999: RocksDB is an embeddable persistent key-value store for fast storage.
 dev-go/rice 20170420: go.rice is a Go package that makes working with resources such as html,js,css,images,templates, etc very easy
-dev-libs/libxs 9999: libxs is a library for building scalable and high performance distributed applications.
-dev-libs/mtbl 9999: mtbl is a C library implementation of the Sorted String Table (SSTable) data structure.
-dev-libs/nmsg 9999: Network message encapsulation library.
 dev-libs/openssl 1.0.2g-r2 1.0.2h: full-strength general purpose cryptography library (including SSL and TLS)
-dev-libs/sie-nmsg 9999: SIE-specific message modules for libnmsg.
-dev-libs/wdns 9999: Low-level DNS library.
-dev-python/flickr-api 9999: Simple tool to upload photos to Flickr
-dev-python/flickr-upload 9999: Simple tool to upload photos to Flickr
-dev-python/icdiff 9999: Improved colored diff
 dev-python/phpserialize 1.3 9999: A small library for extracting rich content from urls
 dev-util/cargo 0.30.0-r1: The Rust's package manager
 dev-util/docker-gen 0.7.4: Generate files from docker container meta-data
 dev-util/msgpack-cli 0.4: CLI tool to encoding/decoding data to/from MessagePack format and calling RPC via msgpack-rpc / msgpack.org[Shell]
 net-analyzer/captipper 9999: Malicious HTTP traffic explorer
 net-analyzer/ssldump 0.9-r2 0.9-r3: An SSLv3/TLS network protocol analyzer
-net-dns/dnstable 9999: Encoding format, library, and utilities for passive DNS data.
 net-libs/grpc 1.12.0: Modern open source high performance RPC framework
 net-libs/nodejs 8.11.1 8.12.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/BaiduPCS-Go 3.6: BaiDu PCS client, written in GoLang
