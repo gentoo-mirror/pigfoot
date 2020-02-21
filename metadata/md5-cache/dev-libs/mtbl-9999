@@ -8,6 +8,7 @@ KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=app-arch/snappy:= sys-libs/zlib:=
+RESTRICT=mirror
 SLOT=0/9999
 _eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=2e5fae96a1044c6234f3132971498baa
+_md5_=78e164041608d545139b111002814557
