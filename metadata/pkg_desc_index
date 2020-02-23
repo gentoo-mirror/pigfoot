@@ -23,6 +23,7 @@ dev-util/msgpack-cli 0.4: CLI tool to encoding/decoding data to/from MessagePack
 net-analyzer/captipper 9999: Malicious HTTP traffic explorer
 net-analyzer/ssldump 0.9-r2 0.9-r3: An SSLv3/TLS network protocol analyzer
 net-dns/dnstable 0.11.2 9999: Encoding format, library, and utilities for passive DNS data.
+net-im/telegram-cli 9999 20200106: telegram-cli for Telegram IM
 net-libs/grpc 1.12.0: Modern open source high performance RPC framework
 net-libs/nodejs 8.11.1 8.12.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/BaiduPCS-Go 3.6.1: BaiDu PCS client, written in GoLang
