@@ -27,7 +27,7 @@ net-dns/dnstable 0.11.2 9999: Encoding format, library, and utilities for passiv
 net-im/telegram-cli 9999 20200106: telegram-cli for Telegram IM
 net-libs/grpc 1.12.0: Modern open source high performance RPC framework
 net-libs/nodejs 8.11.1 8.12.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
-net-misc/BaiduPCS-Go 3.6.1: BaiDu PCS client, written in GoLang
+net-misc/BaiduPCS-Go 3.6.2: BaiDu PCS client, written in GoLang
 net-misc/aria2 1.30.0 1.31.0 1.32.0: A download utility with segmented downloading with BitTorrent support
 net-misc/cloudflared 2019.10.2: Argo Tunnel client, written in GoLang
 net-misc/curlie 1.3.1: The power of curl, the ease of use of httpie, written in GoLang
