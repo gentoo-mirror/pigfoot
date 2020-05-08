@@ -1,4 +1,4 @@
-app-admin/google-compute-engine 2.8.3: Scripts and tools for Google Compute Engine Linux images.
+app-admin/google-compute-engine 20191210: Scripts and tools for Google Compute Engine Linux images.
 app-admin/journalbeat 5.5.2: Journalbeat is a log shipper from systemd/journald to Logstash/Elasticsearch
 app-admin/metricbeat 6.2.4: Lightweight log shipper for Logstash and Elasticsearch
 app-crypt/tlsh 4.2.1 9999: Trend Micro Locality Sensitive Hash
