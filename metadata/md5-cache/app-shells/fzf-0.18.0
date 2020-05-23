@@ -9,5 +9,5 @@ RDEPEND=bash-completion? ( app-shells/bash ) fish-completion? ( app-shells/fish 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/junegunn/fzf/archive/0.18.0.tar.gz -> fzf-0.18.0.tar.gz https://github.com/mattn/go-isatty/archive/66b8e73f3f5c.tar.gz -> github.com-mattn-go-isatty-66b8e73f3f5c.tar.gz https://github.com/mattn/go-runewidth/archive/14207d285c6c.tar.gz -> github.com-mattn-go-runewidth-14207d285c6c.tar.gz https://github.com/mattn/go-shellwords/archive/v1.0.3.tar.gz -> github.com-mattn-go-shellwords-v1.0.3.tar.gz https://github.com/golang/crypto/archive/558b6879de74.tar.gz -> github.com-golang-crypto-558b6879de74.tar.gz https://github.com/golang/sys/archive/b90f89a1e7a9.tar.gz -> github.com-golang-sys-b90f89a1e7a9.tar.gz
-_eclasses_=bash-completion-r1	e5f9c3faab3ab3d1e7e007daa8c736ef	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7	golang-vcs-snapshot	12177e83bede6f7fb87eae383864b40b	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=bash-completion-r1	e5f9c3faab3ab3d1e7e007daa8c736ef	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7	golang-vcs-snapshot	12177e83bede6f7fb87eae383864b40b	multilib	797cda3549becfe50afdfa35192ca137	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=d0c588cf5e190dfbcade1a647938911a
