@@ -18,7 +18,6 @@ dev-python/flickr-api 0.6.1 9999: Simple tool to upload photos to Flickr
 dev-python/flickr-upload 0_pre20130527 9999: Simple tool to upload photos to Flickr
 dev-python/icdiff 1.9.5 9999: Improved colored diff
 dev-python/phpserialize 1.3 9999: A small library for extracting rich content from urls
-dev-util/cargo 0.30.0-r1: The Rust's package manager
 dev-util/docker-gen 0.7.4: Generate files from docker container meta-data
 dev-util/msgpack-tools 0.6 9999: Command-line tools for converting between MessagePack and JSON
 net-analyzer/captipper 9999: Malicious HTTP traffic explorer
