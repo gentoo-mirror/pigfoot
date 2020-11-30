@@ -29,7 +29,7 @@ net-libs/nodejs 8.11.1 8.12.0: A JavaScript runtime built on Chrome's V8 JavaScr
 net-misc/BaiduPCS-Go 3.6.2: BaiDu PCS client, written in GoLang
 net-misc/aria2 1.30.0 1.31.0 1.32.0: A download utility with segmented downloading with BitTorrent support
 net-misc/cloudflared 2019.10.2: Argo Tunnel client, written in GoLang
-net-misc/curlie 1.3.1: The power of curl, the ease of use of httpie, written in GoLang
+net-misc/curlie 1.6.0: The power of curl, the ease of use of httpie, written in GoLang
 net-misc/hargo 0.1.2: A command line utility that parses HAR files, written in GoLang
 net-misc/spdylay 0.3.8 9999: The experimental SPDY protocol version 2 and 3 implementation in C
 net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
