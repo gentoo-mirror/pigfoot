@@ -31,6 +31,7 @@ net-misc/spdylay 0.3.8 9999: The experimental SPDY protocol version 2 and 3 impl
 net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
 sci-libs/mkl 11.3.2.181 2017.3.196: Intel Math Kernel Library: linear algebra, fft, math functions
 sci-libs/xgboost 0.60 9999: Scalable, Portable and Distributed Gradient Boosting.
+sys-apps/duf 0.6.0: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/go-tldr 20200320: fast and interactive tldr client written with go, written in GoLang
 sys-cluster/apache-spark-bin 2.2.0: Software framework for fast cluster computing
 sys-fs/encfs 1.9.1: An implementation of encrypted filesystem in user-space using FUSE
