@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=prepare unpack
+DESCRIPTION=The PE file analysis toolkit
+EAPI=7
+HOMEPAGE=http://pev.sf.net
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+PROPERTIES=live
+RESTRICT=mirror
+SLOT=0/9999
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=2a0fb665da88efafe93392cee66fef69

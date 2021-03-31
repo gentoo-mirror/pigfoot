@@ -2,6 +2,7 @@ BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
 DEFINED_PHASES=compile install postinst unpack
 DESCRIPTION=Disk Usage/Free Utility - a better 'df' alternative
 EAPI=7
+INHERIT=go-module
 IUSE=+pie
 KEYWORDS=~amd64 ~x86 ~arm
 LICENSE=MIT
