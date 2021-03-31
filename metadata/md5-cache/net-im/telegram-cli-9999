@@ -4,6 +4,7 @@ DEPEND=sys-libs/zlib sys-libs/readline:0= dev-libs/libconfig dev-libs/libevent j
 DESCRIPTION=telegram-cli for Telegram IM
 EAPI=7
 HOMEPAGE=https://github.com/fnogcps/tg
+INHERIT=git-r3
 IUSE=json libressl lua luajit
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
@@ -11,5 +12,5 @@ PROPERTIES=live
 RDEPEND=sys-libs/zlib sys-libs/readline:0= dev-libs/libconfig dev-libs/libevent json? ( dev-libs/jansson ) lua? ( !luajit? ( >=dev-lang/lua-5.2:= ) !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 RESTRICT=mirror
 SLOT=0/9999
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=c7fe34f35b79de0966b00e4ab25038bf
