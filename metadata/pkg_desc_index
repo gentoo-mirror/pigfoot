@@ -25,6 +25,7 @@ net-misc/BaiduPCS-Go 3.6.2 3.6.2-r1: BaiDu PCS client, written in GoLang
 net-misc/aria2 1.30.0 1.31.0 1.32.0: A download utility with segmented downloading with BitTorrent support
 net-misc/curlie 1.6.0 1.6.0-r1: The power of curl, the ease of use of httpie, written in GoLang
 net-misc/hargo 0.1.2: A command line utility that parses HAR files, written in GoLang
+net-misc/ipinfo 1.1.1: Official Command Line Interface for the IPinfo API
 net-p2p/bittorrent-sync 1.4.110: Fast, unlimited and secure file-syncing. Free from the cloud.
 net-vpn/cloudflared 2021.4.0: Argo Tunnel client, written in GoLang
 sci-libs/mkl 11.3.2.181 2017.3.196: Intel Math Kernel Library: linear algebra, fft, math functions
