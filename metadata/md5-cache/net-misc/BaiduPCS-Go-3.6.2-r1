@@ -1,5 +1,5 @@
 BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
-DEFINED_PHASES=compile install postinst unpack
+DEFINED_PHASES=compile install unpack
 DESCRIPTION=BaiDu PCS client, written in GoLang
 EAPI=7
 INHERIT=go-module
@@ -9,5 +9,5 @@ LICENSE=MIT
 RESTRICT=mirror
 SLOT=0/3.6.2-r1
 SRC_URI=https://github.com/felixonmars/BaiduPCS-Go/archive/v3.6.2.tar.gz -> BaiduPCS-Go-3.6.2.tar.gz
-_eclasses_=go-module	236ecaf8d66b4f4c8d98f6f868defed5
+_eclasses_=go-module	66ced1f8651b6b35c0262d39e015fe24
 _md5_=86bc8933bbe5e7c4bd59aa4894056c2e
