@@ -9,5 +9,5 @@ LICENSE=MIT
 RESTRICT=mirror
 SLOT=0/3.6.2-r1
 SRC_URI=https://github.com/felixonmars/BaiduPCS-Go/archive/v3.6.2.tar.gz -> BaiduPCS-Go-3.6.2.tar.gz
-_eclasses_=go-module	66ced1f8651b6b35c0262d39e015fe24
+_eclasses_=go-module	1ef960887ad6e150075dcfaeb173bc76
 _md5_=86bc8933bbe5e7c4bd59aa4894056c2e
