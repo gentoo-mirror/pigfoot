@@ -1,4 +1,4 @@
-app-admin/google-compute-engine 20191210: Scripts and tools for Google Compute Engine Linux images.
+app-admin/google-compute-engine 20191210-r1: Scripts and tools for Google Compute Engine Linux images.
 app-crypt/tlsh 4.2.1 9999: Trend Micro Locality Sensitive Hash
 dev-go/athena-cli 0.1.7: Run SQL statements against Amazon Athena and return results to stdout
 dev-libs/nmsg 0.15.1 9999: network message encapsulation library
