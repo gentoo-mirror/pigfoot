@@ -15,4 +15,3 @@ net-vpn/cloudflared 2022.1.0 9999: Argo Tunnel client, written in GoLang
 sci-libs/mkl 11.3.2.181 2017.3.196: Intel Math Kernel Library: linear algebra, fft, math functions
 sci-libs/xgboost 0.60 9999: Scalable, Portable and Distributed Gradient Boosting.
 sys-apps/duf 0.6.0: Disk Usage/Free Utility - a better 'df' alternative
-www-servers/h2o 1.0.1 9999: An optimized HTTP server with support for HTTP/1.x and HTTP/2
