@@ -2,6 +2,7 @@ app-admin/google-compute-engine 20191210-r1: Scripts and tools for Google Comput
 dev-go/athena-cli 0.1.7: Run SQL statements against Amazon Athena and return results to stdout
 dev-libs/nmsg 0.15.1 9999: network message encapsulation library
 dev-libs/sie-nmsg 1.2.1 9999: SIE-specific message modules for libnmsg
+net-analyzer/amass 3.17.1 9999: In-depth Attack Surface Mapping and Asset Discovery
 net-dns/dnstable 0.11.2 9999: Encoding format, library, and utilities for passive DNS data.
 net-im/telegram-cli 9999 20200106: telegram-cli for Telegram IM
 net-misc/BaiduPCS-Go 3.6.2 3.6.2-r1: BaiDu PCS client, written in GoLang
