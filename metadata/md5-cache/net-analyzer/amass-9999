@@ -9,4 +9,4 @@ PROPERTIES=live
 RESTRICT=mirror strip
 SLOT=0/9999
 _eclasses_=go-module	f06fbddcc5fc7a1f7da58106a6be4959	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=9198a27a798be8b6baab43c86d185d66
+_md5_=f9c0713feae4d3269a5d551150f3e91b
