@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.16 app-arch/unzip
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Run SQL statements against Amazon Athena and return results to stdout
+EAPI=8
+INHERIT=go-module
+IUSE=+pie
+KEYWORDS=~amd64 ~x86 ~arm64 ~arm
+LICENSE=GPL-3
+RESTRICT=mirror strip
+SLOT=0/0.1.8
+SRC_URI=https://github.com/justmiles/athena-cli/archive/v0.1.8.tar.gz -> athena-cli-0.1.8.tar.gz
+_eclasses_=go-module	f06fbddcc5fc7a1f7da58106a6be4959
+_md5_=50a3d92056b5a6638c78f10759b3e9fd
