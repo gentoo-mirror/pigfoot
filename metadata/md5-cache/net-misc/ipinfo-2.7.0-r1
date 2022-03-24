@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 RESTRICT=mirror strip
 SLOT=0/2.7.0-r1
 SRC_URI=https://github.com/ipinfo/cli/archive/ipinfo-2.7.0.tar.gz -> ipinfo-2.7.0.tar.gz
-_eclasses_=go-module	95694c3c8800655c04b1e681bd66fc72
+_eclasses_=go-module	3b47b6e0e18257d2abb17663c575fc36
 _md5_=135f1cd872265d5b9eceb6136da73ed5
