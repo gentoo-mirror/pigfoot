@@ -8,7 +8,6 @@ net-analyzer/amass 3.17.1 9999: In-depth Attack Surface Mapping and Asset Discov
 net-dns/dnstable 0.11.2 9999: Encoding format, library, and utilities for passive DNS data.
 net-im/telegram-cli 9999 20200106: telegram-cli for Telegram IM
 net-misc/BaiduPCS-Go 3.8.7 9999: BaiDu PCS client, written in GoLang
-net-misc/aria2 1.30.0 1.31.0 1.32.0: A download utility with segmented downloading with BitTorrent support
 net-misc/curlie 1.6.7 9999: The power of curl, the ease of use of httpie, written in GoLang
 net-misc/flarectl 0.51.0 9999: Command Line for the Cloudflare v4 API
 net-misc/gcsfuse 0.39.2 9999: A user-space file system for interacting with Google Cloud Storage
