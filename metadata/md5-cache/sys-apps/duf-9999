@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RESTRICT=mirror strip
 SLOT=0/9999
-_eclasses_=go-module	15312495dc4fd84f8c37bbe228ea2abd	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=go-module	15312495dc4fd84f8c37bbe228ea2abd	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=9b6dd6a80681fceb0a1aa5872e6dafdc
