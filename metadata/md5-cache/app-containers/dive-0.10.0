@@ -1,6 +1,6 @@
 BDEPEND=>=dev-lang/go-1.18 app-arch/unzip >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DESCRIPTION=Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool.
+DESCRIPTION=A tool for exploring each layer in a docker image
 EAPI=8
 INHERIT=go-module git-r3
 IUSE=+pie
@@ -8,7 +8,6 @@ KEYWORDS=~amd64 ~x86 ~arm64 ~arm
 LICENSE=MIT
 PROPERTIES=live
 RESTRICT=mirror strip
-SLOT=0/1.25.0
-SRC_URI=https://github.com/TomWright/dasel/archive/v1.25.0.tar.gz -> dasel-1.25.0.tar.gz
+SLOT=0/0.10.0
 _eclasses_=go-module	4c4b34f361efda91762ffeda8f632c02	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=2a24e0c2dc8fcaf3a6e0a9bc528df442
+_md5_=6699bbc307bc52163d2e919791d69830
