@@ -15,5 +15,4 @@ net-misc/gcsfuse 0.39.2 9999: A user-space file system for interacting with Goog
 net-misc/hargo 0.1.2-r1 9999: A command line utility that parses HAR files, written in GoLang
 net-misc/ipinfo 2.7.0-r1 9999: Official Command Line Interface for the IPinfo API
 net-vpn/cloudflared 2022.3.1 9999: Argo Tunnel client, written in GoLang
-sci-libs/mkl 11.3.2.181 2017.3.196: Intel Math Kernel Library: linear algebra, fft, math functions
 sys-apps/duf 0.8.1 9999: Disk Usage/Free Utility - a better 'df' alternative
