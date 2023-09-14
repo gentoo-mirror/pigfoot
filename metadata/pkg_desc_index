@@ -7,6 +7,7 @@ dev-libs/nmsg 0.15.1 9999: network message encapsulation library
 dev-libs/sie-nmsg 1.2.1 9999: SIE-specific message modules for libnmsg
 net-analyzer/amass 3.17.1 9999: In-depth Attack Surface Mapping and Asset Discovery
 net-dns/dnstable 0.11.2 9999: Encoding format, library, and utilities for passive DNS data.
+net-dns/dog 9999: A command-line DNS client
 net-im/telegram-cli 9999 20200106: telegram-cli for Telegram IM
 net-misc/BaiduPCS-Go 3.8.7 9999: BaiDu PCS client, written in GoLang
 net-misc/curlie 1.6.7 9999: The power of curl, the ease of use of httpie, written in GoLang
