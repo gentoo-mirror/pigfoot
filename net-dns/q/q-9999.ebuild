@@ -3,7 +3,7 @@
 
 EAPI=8
 
-EGO_PN="github.com/ipinfo/cli"
+EGO_PN="github.com/natesales/${PN}"
 
 inherit go-module
 
@@ -14,26 +14,25 @@ if [[ ${PV} == *9999* ]]; then
 
     src_unpack() {
         git-r3_src_unpack
-        #go-module_live_vendor
+        go-module_live_vendor
     }
 else
     EGO_VER="v${PV}"
-    SRC_URI="https://${EGO_PN}/archive/${P}.tar.gz -> ${P}.tar.gz"
-    #inherit git-r3
-    #EGIT_REPO_URI="https://${EGO_PN}.git"
-    #EGIT_COMMIT="${EGO_VER}"
+    #SRC_URI="https://${EGO_PN}/archive/${EGO_VER}.tar.gz -> ${P}.tar.gz"
+    inherit git-r3
+    EGIT_REPO_URI="https://${EGO_PN}.git"
+    EGIT_COMMIT="${EGO_VER}"
 
-    #src_unpack() {
-    #    git-r3_src_unpack
-    #    go-module_live_vendor
-    #}
+    src_unpack() {
+        git-r3_src_unpack
+        go-module_live_vendor
+    }
 
-    S="${WORKDIR}/cli-${P}"
     KEYWORDS="~amd64 ~x86 ~arm64 ~arm"
 fi
 
-DESCRIPTION="Official Command Line Interface for the IPinfo API"
-LICENSE="Apache-2.0"
+DESCRIPTION="A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH"
+LICENSE="GPL-3"
 SLOT="0/${PVR}"
 RESTRICT="mirror"
 IUSE="+pie"
@@ -44,12 +43,12 @@ src_compile() {
     use pie && local build_pie="-buildmode=pie"
 
     local build_flags="$( echo ${EGO_BUILD_FLAGS} ) $( echo ${build_pie} )"
-    local ld_flags="$( echo "" )"
+    local ld_flags="$( echo "-s -w -X 'main.version=${EGO_VER}' -X 'main.commit=${EGIT_VERSION}' -X 'main.date=$(date --iso-8601=seconds)'" )"
 
     set -- env \
         CGO_ENABLED=0 \
         go build -o "bin/${PN}" -mod=vendor -v -work -x ${build_flags} -ldflags "${ld_flags}" \
-            ./${PN}
+            .
     echo "$@"
     "$@" || die
 }
