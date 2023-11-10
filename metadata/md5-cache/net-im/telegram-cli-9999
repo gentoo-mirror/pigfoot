@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=sys-libs/zlib sys-libs/readline:0= dev-libs/libconfig dev-libs/libevent json? ( dev-libs/jansson ) lua? ( !luajit? ( >=dev-lang/lua-5.2:= ) !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 RESTRICT=mirror
 SLOT=0/9999
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=c7fe34f35b79de0966b00e4ab25038bf
