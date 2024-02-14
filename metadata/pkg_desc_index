@@ -1,4 +1,4 @@
-app-admin/google-compute-engine 20191210-r2: Scripts and tools for Google Compute Engine Linux images.
+app-admin/google-compute-engine 20191210-r3: Scripts and tools for Google Compute Engine Linux images.
 app-arch/tar 1.34-r2: Use this to make tarballs :)
 app-containers/dive 0.10.0 9999: A tool for exploring each layer in a docker image
 app-containers/podman-compose 1.0.6: a script to run docker-compose.yml using podman
