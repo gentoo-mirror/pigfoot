@@ -1,0 +1,11 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install
+DESCRIPTION=Command line interface for the Bitwarden password manager
+EAPI=8
+HOMEPAGE=https://bitwarden.com/
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/bitwarden/clients/releases/download/cli-v2024.2.0/bw-linux-2024.2.0.zip
+_md5_=118b53e1495a10ee9cc701a9e5903f66
