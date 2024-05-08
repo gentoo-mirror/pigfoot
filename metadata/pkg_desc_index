@@ -4,7 +4,7 @@ app-arch/tar 1.34-r2: Use this to make tarballs :)
 app-containers/dive 0.10.0 9999: A tool for exploring each layer in a docker image
 app-containers/podman-compose 1.0.6: a script to run docker-compose.yml using podman
 app-misc/fx 24.0.0 9999: Terminal JSON viewer
-app-misc/jnv 0.1.3: interactive JSON filter using jq
+app-misc/jnv 0.2.2: interactive JSON filter using jq
 dev-go/athena-cli 0.1.8 9999: Run SQL statements against Amazon Athena and return results to stdout
 dev-libs/nmsg 0.15.1 9999: network message encapsulation library
 dev-libs/sie-nmsg 1.2.1 9999: SIE-specific message modules for libnmsg
@@ -20,6 +20,6 @@ net-misc/flarectl 0.51.0 9999: Command Line for the Cloudflare v4 API
 net-misc/gcsfuse 0.39.2 9999: A user-space file system for interacting with Google Cloud Storage
 net-misc/hargo 0.1.2-r1 9999: A command line utility that parses HAR files, written in GoLang
 net-misc/ipinfo 3.1.0 9999: Official Command Line Interface for the IPinfo API
-net-misc/xh 0.21.0 9999: Friendly and fast tool for sending HTTP requests
+net-misc/xh 0.22.0 9999: Friendly and fast tool for sending HTTP requests
 net-vpn/cloudflared 2022.3.1 9999: Argo Tunnel client, written in GoLang
 sys-apps/duf 0.8.1 9999: Disk Usage/Free Utility - a better 'df' alternative
