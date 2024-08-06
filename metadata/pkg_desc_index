@@ -6,7 +6,7 @@ app-containers/dive 0.10.0 9999: A tool for exploring each layer in a docker ima
 app-containers/podman-compose 1.0.6: a script to run docker-compose.yml using podman
 app-misc/aichat 0.20.0 9999: All-in-one AI CLI Tool
 app-misc/fx 24.0.0 9999: Terminal JSON viewer
-app-misc/jnv 0.2.2: interactive JSON filter using jq
+app-misc/jnv 0.3.0: JSON navigator and interactive filter leveraging jq
 dev-go/athena-cli 0.1.8 9999: Run SQL statements against Amazon Athena and return results to stdout
 dev-libs/nmsg 0.15.1 9999: network message encapsulation library
 dev-libs/sie-nmsg 1.2.1 9999: SIE-specific message modules for libnmsg
