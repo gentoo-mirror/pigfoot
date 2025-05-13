@@ -1,5 +1,5 @@
 app-admin/bitwarden-cli-bin 2024.2.0: Command line interface for the Bitwarden password manager
-app-admin/google-compute-engine 20191210-r3: Scripts and tools for Google Compute Engine Linux images.
+app-admin/google-compute-engine 20191210-r4: Scripts and tools for Google Compute Engine Linux images.
 app-admin/mongosh-bin 2.2.9: The MongoDB Shell
 app-arch/tar 1.34-r2: Use this to make tarballs :)
 app-containers/dive 0.10.0 9999: A tool for exploring each layer in a docker image
