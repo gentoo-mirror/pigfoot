@@ -15,7 +15,7 @@ net-dns/dnstable 0.11.2 9999: Encoding format, library, and utilities for passiv
 net-dns/dog 9999: A command-line DNS client
 net-dns/doggo 0.5.7 9999: Command-line DNS Client for Humans. Written in Golang
 net-dns/q 0.19.2 9999: A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
-net-misc/BaiduPCS-Go 3.9.5 9999: BaiDu PCS client, written in GoLang
+net-misc/BaiduPCS-Go 3.9.7 9999: BaiDu PCS client, written in GoLang
 net-misc/curlie 1.6.7 9999: The power of curl, the ease of use of httpie, written in GoLang
 net-misc/flarectl 0.114.0 9999: Command Line for the Cloudflare v4 API
 net-misc/gcsfuse 0.39.2 9999: A user-space file system for interacting with Google Cloud Storage
