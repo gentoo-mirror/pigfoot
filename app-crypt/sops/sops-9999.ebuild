@@ -3,7 +3,7 @@
 
 EAPI=8
 
-EGO_PN="github.com/antonmedv/${PN}"
+EGO_PN="github.com/getsops/${PN}"
 
 inherit go-module
 
@@ -17,7 +17,7 @@ if [[ ${PV} == *9999* ]]; then
         go-module_live_vendor
     }
 else
-    EGO_VER="${PV}"
+    EGO_VER="v${PV}"
     #SRC_URI="https://${EGO_PN}/archive/${EGO_VER}.tar.gz -> ${P}.tar.gz"
     inherit git-r3
     EGIT_REPO_URI="https://${EGO_PN}.git"
@@ -28,12 +28,11 @@ else
         go-module_live_vendor
     }
 
-    #S="${WORKDIR}/cli-${P}"
     KEYWORDS="~amd64 ~x86 ~arm64 ~arm"
 fi
 
-DESCRIPTION="Terminal JSON viewer"
-LICENSE="MIT"
+DESCRIPTION="Simple and flexible tool for managing secrets"
+LICENSE="MPL-2.0"
 SLOT="0/${PVR}"
 RESTRICT="mirror"
 IUSE="+pie"
@@ -44,15 +43,13 @@ src_compile() {
     use pie && local build_pie="-buildmode=pie"
 
     local build_flags="$( echo ${EGO_BUILD_FLAGS} ) $( echo ${build_pie} )"
-    local ld_flags="$( )"
+    local ld_flags="$( echo "-s -w -X 'version.Version=${EGO_VER}'" )"
 
-    # patch version
-    sed -i "s#version = .*#version = \"${PV}\"#" version.go
-
+	go generate
     set -- env \
         CGO_ENABLED=0 \
         go build -o "bin/${PN}" -mod=vendor -v -work -x ${build_flags} -ldflags "${ld_flags}" \
-            .
+            ./cmd/${PN}
     echo "$@"
     "$@" || die
 }
