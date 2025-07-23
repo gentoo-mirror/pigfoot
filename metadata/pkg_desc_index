@@ -4,9 +4,10 @@ app-admin/mongosh-bin 2.2.9: The MongoDB Shell
 app-arch/tar 1.34-r2: Use this to make tarballs :)
 app-containers/dive 0.10.0 9999: A tool for exploring each layer in a docker image
 app-containers/podman-compose 1.0.6: a script to run docker-compose.yml using podman
+app-crypt/sops 3.10.2 9999: Simple and flexible tool for managing secrets
 app-misc/aichat 0.20.0 9999: All-in-one AI CLI Tool
-app-misc/fx 35.0.0 9999: Terminal JSON viewer
-app-misc/jnv 0.3.0: JSON navigator and interactive filter leveraging jq
+app-misc/fx 38.0.0 9999: Terminal JSON viewer
+app-misc/jnv 0.6.1: JSON navigator and interactive filter leveraging jq
 dev-go/athena-cli 0.1.8 9999: Run SQL statements against Amazon Athena and return results to stdout
 dev-libs/nmsg 0.15.1 9999: network message encapsulation library
 dev-libs/sie-nmsg 1.2.1 9999: SIE-specific message modules for libnmsg
@@ -16,7 +17,7 @@ net-dns/dog 9999: A command-line DNS client
 net-dns/doggo 0.5.7 9999: Command-line DNS Client for Humans. Written in Golang
 net-dns/q 0.19.2 9999: A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
 net-misc/BaiduPCS-Go 3.9.7 9999: BaiDu PCS client, written in GoLang
-net-misc/curlie 1.6.7 9999: The power of curl, the ease of use of httpie, written in GoLang
+net-misc/curlie 1.8.2 9999: The power of curl, the ease of use of httpie, written in GoLang
 net-misc/flarectl 0.114.0 9999: Command Line for the Cloudflare v4 API
 net-misc/gcsfuse 0.39.2 9999: A user-space file system for interacting with Google Cloud Storage
 net-misc/hargo 0.1.2-r1 9999: A command line utility that parses HAR files, written in GoLang

@@ -1,12 +1,12 @@
 BDEPEND=>=dev-lang/go-1.20:= app-arch/unzip >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DESCRIPTION=Terminal JSON viewer
+DESCRIPTION=Simple and flexible tool for managing secrets
 EAPI=8
 INHERIT=go-module git-r3
 IUSE=+pie
-LICENSE=MIT
+LICENSE=MPL-2.0
 PROPERTIES=live
 RESTRICT=mirror
 SLOT=0/9999
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=2e87f5220284219b207062b4dc330efd
+_md5_=2c6cae9a57cc4f6f43572b7322b8f8f8
